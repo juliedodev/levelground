@@ -1,0 +1,330 @@
+*{
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; 
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; 
+}
+
+html{
+  font-size: 60%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header{
+  width: 100%;
+
+}
+
+.toplinks{
+  display: none;
+}
+.nav{
+  background: rgb(103, 118, 137);
+  height: 5rem;
+  width: 33.3%;
+  float: left;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.nav a{
+  text-decoration: none;
+  color: white;
+}
+
+.logo{
+  background:  rgb(103, 118, 137);
+  float: left;
+  width: 33.3333%;
+  height: 5rem;
+}
+
+.sectiond{
+  background:  rgb(103, 118, 137);
+  float: left;
+  height: 5rem;
+  width: 33.3333%;
+}
+
+.top{
+  height: 40rem;
+  width: 100%;
+  background: rgb(103, 118, 137); 
+  color: white;
+  text-align: center;
+  clear: both;
+}
+
+
+.top header nav span a{
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+
+}
+
+.top p{
+  font-size: 2rem;
+  margin: 0 10%;
+}
+
+.top span{
+  font-size: 1.5rem;
+}
+
+.top h6{
+  font-size: 1rem;
+}
+
+.play img{
+    margin-top: 1rem;
+}
+
+.nav{
+  padding-left: 10rem;
+  padding-top: 1.5rem;
+}
+
+.logo{
+  padding-left: 19rem;
+  padding-top: 1rem;
+}
+
+.sectiond{
+  padding-left: 23rem;
+  padding-top: 1.5rem;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+.whiteone{
+  height: 20rem;
+  width: 100%;
+  background: white;
+  text-align: center;
+  margin: 0px auto;
+  clearfix: both;
+  padding: 0 20rem;
+
+}
+
+.whiteone h2{
+  font-size: 2rem;
+}
+
+.whiteone p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.boxes{
+  height: 50rem;
+  width: 100%;
+  background: rgb(219, 223, 226);
+  padding: 5rem 20rem;
+  margin-right: 0;
+}
+
+.boxes h3{
+  font-size: 2rem;
+}
+
+.boxone{
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
+.boxtwo{
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
+
+.boxone p,
+.boxtwo p{
+  width: 80%;
+  margin: 10%;
+}
+
+.whitetwo{
+  height: 20rem;
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.whitetwo h2{
+  font-size: 2rem;
+}
+
+footer{
+  height: 20rem;
+  width: 100%;
+  background: rgb(22, 31, 42);
+  color: white;
+  padding: 0 5rem;
+}
+
+.bottomleft{
+  width: 50%;
+  float: left;
+}
+
+.bottomright{
+  width: 50%;
+  text-align: right;
+  float: right;
+}
+
+.copyright,
+.logo2{
+
+  width: 100%;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgb(40, 44, 52);
+  float: none;
+  clear: both;
+}
+
+
+@media only screen and (max-width: 481px){ 
+  .whiteone,
+  .boxes,
+  .nav,
+  .logo,
+  .sectiond{
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+
+  .topnav a{
+    display: none;
+  }
+
+  .top{
+    height: 55rem;
+  }
+  .whiteone{
+  display: none;
+}
+
+.play{
+  display: none;
+}
+
+  .boxes{
+    display: none;
+  }
+
+  .bottomright{
+    display: none;
+  }
+}
+
+@media (min-width:481px) and (max-width:768px){
+  .whiteone,
+  .boxes,
+  .topnav,
+  .logo,
+  .sectiond{
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .toplinks{
+    display: inline;
+    font-size: 3rem;
+    padding-left: 1rem;
+    color: white;
+  }
+
+  .topnav a{
+    display: none;
+  }
+
+  .top{
+    height: 55rem;
+  }
+  .whiteone{
+  display: none;
+}
+
+ .play{
+  display: none;
+}
+
+  .boxes{
+    float: none;
+    height: 85rem;
+  }
+
+  .boxone{
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .boxtwo{
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .bottomright{
+    display: none;
+  }
+}
+
+
+@media (min-width:769px) and (max-width:1024px){
+  .boxes,
+  .whiteone,
+  .sectiond,
+  .logo,
+  .nav{
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+  .toplinks{
+    display: inline;
+    font-size: 3rem;
+    padding-left: 1rem;
+    color: white;
+  }
+
+  .nav a{
+    display:none;
+  }
+
+}
