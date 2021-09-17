@@ -2,6 +2,8 @@ The goal of this project is to replicate the Level Ground website.
 
 <img src="levelground.png">
 
+Site: [https://juliedodev-levelground.netlify.app]
+
 How It's Made:
 <ul>
 <li>HTML</li>
